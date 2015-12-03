@@ -22,8 +22,6 @@ var _reactAddonsShallowCompare2 = _interopRequireDefault(_reactAddonsShallowComp
 
 var _react = require("react");
 
-var _react2 = _interopRequireDefault(_react);
-
 exports["default"] = function (DecoratedComponent) {
   return (function (_Component) {
     _inherits(PureComponent, _Component);
@@ -50,7 +48,7 @@ exports["default"] = function (DecoratedComponent) {
     }, {
       key: "render",
       value: function render() {
-        return _react2["default"].createElement(DecoratedComponent, _extends({}, this.props, this.state));
+        return React.createElement(DecoratedComponent, _extends({}, this.props, this.state));
       }
     }]);
 
