@@ -1,5 +1,5 @@
 {
-  "name": "react-pure-component",
+  "name": "react.pure.component",
   "version": "1.0.0",
   "description": "React es6, es7 pure component without purerender mixin",
   "main": "index.js",

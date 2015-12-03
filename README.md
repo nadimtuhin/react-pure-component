@@ -13,7 +13,7 @@ Mixins are no longer usable in es6, es7 land. So we can not use pure render mixi
 
 ##Installation
 ```bash
-npm i react-pure-component --save
+npm i react.pure.component --save
 ```
 
 ###es7
