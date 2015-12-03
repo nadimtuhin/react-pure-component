@@ -1,0 +1,30 @@
+{
+  "name": "react-pure-component",
+  "version": "1.0.0",
+  "description": "React es6, es7 pure component without purerender mixin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadimtuhin/react-pure-component.git"
+  },
+  "keywords": [
+    "react",
+    "pure-render",
+    "es6",
+    "es7",
+    "decorators",
+    "mixins"
+  ],
+  "author": "Nadim Tuhin <nadimtuhin@gmail.com> (http://nadimtuhin.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadimtuhin/react-pure-component/issues"
+  },
+  "dependencies": {
+    "react-addons-shallow-compare": "^0.14.3"
+  },
+  "homepage": "https://github.com/nadimtuhin/react-pure-component#readme"
+}
