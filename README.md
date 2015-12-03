@@ -11,6 +11,8 @@ Mixins are no longer usable in es6, es7 land. Higher Order Components can help u
 
 > To be clear, mixins is an escape hatch to work around reusability limitations in the system. It’s not idiomatic React. Making composition easier is a higher priority than making arbitrary mixins work. I’ll focus on making composition easier so we can get rid of mixins.
 
+##installation
+
 ###es7
 ```js
 import {Component} from 'react';

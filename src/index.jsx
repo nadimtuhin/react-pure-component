@@ -1,5 +1,5 @@
 import shallowCompare from "react-addons-shallow-compare";
-import React, {Component} from "react";
+import {Component} from "react";
 
 export default function (DecoratedComponent) {
     return class PureComponent extends Component {
