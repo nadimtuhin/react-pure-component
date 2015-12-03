@@ -1,5 +1,5 @@
 #React Pure Component
-Mixins are no longer usable in es6, es7 land. Higher Order Components can help us mitigate the problem.
+Mixins are no longer usable in es6, es7 land. So we can not use pure render mixin in classes. Higher Order Components can help us mitigate this problem.
 
 - [Mixins are dead]( https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750)
 - [React Mixins are on their way out](https://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html#mixins)
