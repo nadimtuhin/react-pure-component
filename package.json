@@ -1,6 +1,6 @@
 {
   "name": "react.pure.component",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "React es6, es7 pure component without purerender mixin",
   "main": "index.js",
   "scripts": {
