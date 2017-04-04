@@ -1,4 +1,4 @@
-#React Pure Component
+# React Pure Component
 Mixins are no longer usable in es6, es7 land. So we can not use pure render mixin in classes. Higher Order Components can help us mitigate this problem.
 
 - [Mixins are dead]( https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750)
@@ -11,12 +11,12 @@ Mixins are no longer usable in es6, es7 land. So we can not use pure render mixi
 
 > To be clear, mixins is an escape hatch to work around reusability limitations in the system. It’s not idiomatic React. Making composition easier is a higher priority than making arbitrary mixins work. I’ll focus on making composition easier so we can get rid of mixins.
 
-##Installation
+## Installation
 ```bash
 npm i react.pure.component --save
 ```
 
-###es7
+### es7
 ```js
 import {Component} from 'react';
 import PureComponent from 'react.pure.component';
@@ -33,7 +33,7 @@ class App extends Component {
 export default App;
 ```
 
-###es6
+### es6
 ```js
 import {Component} from 'react';
 import PureComponent from 'react-pure-component';
