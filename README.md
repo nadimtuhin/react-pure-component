@@ -36,7 +36,7 @@ export default App;
 ### es6
 ```js
 import {Component} from 'react';
-import PureComponent from 'react-pure-component';
+import PureComponent from 'react.pure.component';
 
 class App extends Component {
   render() {
@@ -52,7 +52,7 @@ export default PureComponent(App);
 ### es5
 ```js
 const React = require('react');
-const PureComponent = require('react-pure-component');
+import PureComponent from 'react.pure.component';
 
 const App = React.createClass({
   render() {
