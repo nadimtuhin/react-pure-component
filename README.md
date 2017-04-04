@@ -49,7 +49,7 @@ class App extends Component {
 export default PureComponent(App);
 ```
 
-###es5
+### es5
 ```js
 const React = require('react');
 const PureComponent = require('react-pure-component');
