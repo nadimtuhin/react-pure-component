@@ -19,7 +19,7 @@ npm i react.pure.component --save
 ###es7
 ```js
 import {Component} from 'react';
-import PureComponent from 'react-pure-component';
+import PureComponent from 'react.pure.component';
 
 @PureComponent
 class App extends Component {
