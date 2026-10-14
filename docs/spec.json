@@ -1,0 +1,2 @@
+{ "banners": { "h-start": "GET STARTED", "h-how": "HOW IT WORKS", "h-dev": "FOR DEVELOPERS" },
+  "hero": { "kicker": "OPEN SOURCE · NPM · REACT", "title": "react.pure.component", "tagline": "Pure render for ES6 and ES7 classes, without mixins" } }
