@@ -18,26 +18,9 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-        continue-on-error: true
 
       - name: Install dependencies
-        run: |
-          if [ -f "package.json" ]; then
-            npm ci 2>/dev/null || npm install
-          fi
-
-      - name: Run lint
-        run: |
-          if [ -f "package.json" ] && npm run lint --if-present 2>/dev/null; then
-            echo "Lint passed"
-          else
-            echo "No lint script or lint skipped"
-          fi
+        run: npm ci
 
       - name: Run tests
-        run: |
-          if [ -f "package.json" ] && npm test --if-present 2>/dev/null; then
-            echo "Tests passed"
-          else
-            echo "No test script or tests skipped"
-          fi
+        run: npm test
