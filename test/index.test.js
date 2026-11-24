@@ -62,3 +62,16 @@ test("re-renders when props change", () => {
   assert.strictEqual(renders.length, 2);
   assert.deepStrictEqual(renderer.toJSON().children, ["bye"]);
 });
+
+test("names the wrapper after the wrapped component", () => {
+  class App extends React.Component {
+    render() {
+      return null;
+    }
+  }
+  const Named = () => null;
+  Named.displayName = "Fancy";
+
+  assert.strictEqual(PureComponent(App).displayName, "PureComponent(App)");
+  assert.strictEqual(PureComponent(Named).displayName, "PureComponent(Fancy)");
+});

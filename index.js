@@ -52,6 +52,10 @@ exports["default"] = function (DecoratedComponent) {
       value: function render() {
         return _react2["default"].createElement(DecoratedComponent, _extends({}, this.props, this.state));
       }
+    }], [{
+      key: "displayName",
+      value: "PureComponent(" + (DecoratedComponent.displayName || DecoratedComponent.name || "Component") + ")",
+      enumerable: true
     }]);
 
     return PureComponent;

@@ -3,6 +3,8 @@ import React, {Component} from "react";
 
 export default function (DecoratedComponent) {
     return class PureComponent extends Component {
+      static displayName = `PureComponent(${DecoratedComponent.displayName || DecoratedComponent.name || "Component"})`;
+
       /**
        * Tells if a component should update given it's next props
        * and state.
