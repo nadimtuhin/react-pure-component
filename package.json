@@ -4,7 +4,7 @@
   "description": "React es6, es7 pure component without purerender mixin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -19,12 +19,19 @@
     "mixins"
   ],
   "author": "Nadim Tuhin <nadimtuhin@gmail.com> (http://nadimtuhin.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nadimtuhin/react-pure-component/issues"
   },
   "dependencies": {
     "react-addons-shallow-compare": "^15.3.2"
   },
-  "homepage": "https://github.com/nadimtuhin/react-pure-component#readme"
+  "peerDependencies": {
+    "react": ">=0.14"
+  },
+  "homepage":"https://github.com/nadimtuhin/react-pure-component#readme",
+  "devDependencies": {
+    "react": "^18.3.1",
+    "react-test-renderer": "^18.3.1"
+  }
 }
